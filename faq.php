@@ -183,7 +183,7 @@
             <div class="main_menu">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png"
+                        <a class="navbar-brand" href="index.php"><img src="assets/images/logo.png"
                                 srcset="assets/images/logo-2x.png 2x" alt="" /></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -192,9 +192,9 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="nav navbar-nav ml-auto">
-                                <li><a href="index.php">Trang chủ</a></li>
+                                <li><a class="white-link" href="index.php">Trang chủ</a></li>
                                 <li class="dropdown submenu">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="prevention.php"
+                                    <a class="dropdown-toggle white-link" data-toggle="dropdown" href="prevention.php"
                                         role="button" aria-haspopup="true" aria-expanded="false">Phòng chống </a>
                                     <i class="linearicons-chevron-down mobile_dropdown" aria-hidden="true"
                                         data-toggle="dropdown"></i>
@@ -205,7 +205,7 @@
                                         <li><a href="tracker.php">Theo dõi tình hình </a></li>
                                     </ul>
                                 </li>
-                                <li><a href="appointment.php">Tư vấn</a></li>
+                                <li><a href="appointment.php" class="white-link">Tư vấn</a></li>
                                 <li class="dropdown submenu active">
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                                         aria-haspopup="true" aria-expanded="false">Giới thiệu</a>
@@ -219,13 +219,13 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown submenu">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="blog.php" role="button"
+                                    <a class="dropdown-toggle white-link" data-toggle="dropdown" href="blog.php" role="button"
                                         aria-haspopup="true" aria-expanded="false">Tin tức
                                     </a>
                                     <i class="linearicons-chevron-down mobile_dropdown" aria-hidden="true"
                                         data-toggle="dropdown"></i>
                                     <ul class="dropdown-menu">
-                                        <li><a href="blog.php">Tin tức</a></li>
+                                        <li><a href="blog.php" class="white-link">Tin tức</a></li>
                                         <li><a href="single-blog.php">Tin tức chi tiết</a></li>
                                     </ul>
                                 </li>
@@ -257,140 +257,555 @@
         </header>
         <!--================End Header Area =================-->
         
-    <!--================Home Banner Area =================-->
-    <section class="home_banner_area">
+    <!--=============== Start braeadcrum Area =================-->
+    <section class="faq_breadcrumb_area">
+      <img class="overlay_bg" src="assets/images/about/worldmap2.png" alt="" />
       <div class="container">
-        <div class="row home_banner_inner">
-          <div class="col-sm-7">
-            <h5 class="wow fadeInUp" data-wow-delay="300ms">Stop COVID-19</h5>
-            <h3 class="wow fadeInUp" data-wow-delay="500ms">CHUNG TAY ĐẨY LÙI DỊCH BỆNH COVID-19
-            </h3>
-            <p class="wow fadeInUp" data-wow-delay="400ms">
-              Chúng ta đều là công dân toàn cầu, và chúng ta đều có một phần trách nhiệm cho cuộc chiến này. Chủng coronavirus mới
-              đã đạt tới mức đại dịch.
-            </p>
-            <a class="main_btn wow fadeInLeft" data-wow-delay="300ms" href="#">Phòng chống dịch</a>
-            <div class="row home_option">
-              <div class="col-lg-6 wow fadeIn" data-wow-delay="300ms">
-                <div class="media">
-                  <div class="d-flex">
-                    <i class="fas fa-shield-virus"></i>
+        <div class="breadcrumb_content text-center">
+          <h6>Các câu hỏi thường gặp</h6>
+          <h2>Coronavirus (COVID-19): Câu hỏi thường gặp</h2>
+        </div>
+      </div>
+    </section>
+    <!--================End braeadcrum Area =================-->
+    <!--================Start coronavirus question Area =================-->
+    <section class="coronavirus_question_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-6">
+            <a href="#" class="corona_question">
+              <div class="icon">
+                <i class="linearicons-first-aid"></i>
+              </div>
+              Đại dịch COVID-19
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-6">
+            <a href="#" class="corona_question">
+              <div class="icon">
+                <i class="linearicons-eye-dropper"></i>
+              </div>
+              Các triệu chứng COVID-19 là gì?
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-6">
+            <a href="#" class="corona_question">
+              <div class="icon">
+                <i class="linearicons-earth"></i>
+              </div>
+              Nguồn gốc dịch bệnh
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-6">
+            <a href="#" class="corona_question">
+              <div class="icon">
+                <i class="linearicons-earth"></i>
+              </div>
+              Bảo vệ bản thân khỏi Coronavirus
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-6">
+            <a href="#" class="corona_question">
+              <div class="icon">
+                <i class="linearicons-earth"></i>
+              </div>
+              Chi tiết về Coronavirus và COVID-19
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-6">
+            <a href="#" class="corona_question">
+              <div class="icon">
+                <i class="linearicons-earth"></i>
+              </div>
+              Sự lây lan của virus
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--================End coronavirus question Area =================-->
+<!--================Answers Area =================-->
+    <section class="faq_area">
+      <div class="container">
+        <div class="main_title">
+          <h5>Có một vài câu hỏi? Tìm câu trả lời!</h5>
+          <h2>Giải đáp thắc mắc</h2>
+        </div>
+        <ul class="list-unstyled shap_img">
+            <img style="width: 300px;height:250px"  src="assets/images/about/dauhoi2.jpg" alt="">
+      </ul>
+        <div class="row answer_inner">
+          <div class="col-lg-4">
+            <div class="question_list">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      Đại dịch COVID-19
+                      <i class="linearicons-chevron-down"></i>
+                    </button>
                   </div>
-                  <div class="media-body">
-                    <h4>Sự bảo vệ</h4>
-                    <p>Làm thế nào để bảo vệ bản thân</p>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                            aria-controls="home" aria-selected="true">Coronavirus là gì?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                            aria-controls="profile" aria-selected="false">Sự khác biệt giữa COVID-19 và các bệnh khác là gì?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                            aria-controls="contact" aria-selected="false">Virus lây lan như thế nào?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="four-tab" data-toggle="tab" href="#four" role="tab"
+                            aria-controls="four" aria-selected="false">Các triệu chứng như thế nào?</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-6 wow fadeIn" data-wow-delay="400ms">
-                <div class="media">
-                  <div class="d-flex">
-                    <i class="fas fa-user-check"></i>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Triệu chứng Coronavirus
+                      <i class="linearicons-chevron-down"></i>
+                    </button>
                   </div>
-                  <div class="media-body">
-                    <h4>Triệu chứng</h4>
-                    <p>Kiểm tra các triệu chứng cơ bản</p>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <ul class="nav nav-tabs" id="myTab2" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link" id="home2-tab" data-toggle="tab" href="#home2" role="tab"
+                            aria-controls="home2" aria-selected="true">Sự khác biệt giữa COVID-19 & bệnh cúm?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="profile2-tab" data-toggle="tab" href="#profile2" role="tab"
+                            aria-controls="profile2" aria-selected="false">Triệu chứng gây ra bởi virus SARS-CoV-2 qua từng ngày?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="contact2-tab" data-toggle="tab" href="#contact2" role="tab"
+                            aria-controls="contact2" aria-selected="false">Biểu hiện của bệnh COVID-19 có sổ mũi không?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="four2-tab" data-toggle="tab" href="#four2" role="tab"
+                            aria-controls="four2" aria-selected="false">Biểu hiện sớm nhất của bệnh COVID-19 gây ra bởi virus SARS-CoV-2 là gì?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="five2-tab" data-toggle="tab" href="#five2" role="tab"
+                            aria-controls="five2" aria-selected="false">Triệu chứng của COVID-19 có nghẹt mũi không?</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-6 wow fadeIn" data-wow-delay="500ms">
-                <div class="media">
-                  <div class="d-flex">
-                    <i class="fas fa-comments"></i>                  
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Bảo vệ bản thân khỏi Coronavirus
+                      <i class="linearicons-chevron-down"></i>
+                    </button>
                   </div>
-                  <div class="media-body">
-                    <h4>Tư vấn</h4>
-                    <p>Nhận tư vấn trực tuyến</p>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      <ul class="nav nav-tabs" id="myTab3" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link" id="home3-tab" data-toggle="tab" href="#home3" role="tab"
+                            aria-controls="home3" aria-selected="true">Tôi có nên chủng ngừa COVID-19 không?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="profile3-tab" data-toggle="tab" href="#profile3" role="tab"
+                            aria-controls="profile3" aria-selected="false">Triệu chứng gây ra bởi virus SARS-CoV-2 qua từng ngày</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="contact3-tab" data-toggle="tab" href="#contact3" role="tab"
+                            aria-controls="contact3" aria-selected="false">Tôi có nên đeo khẩu trang không?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="four3-tab" data-toggle="tab" href="#four3" role="tab"
+                            aria-controls="four3" aria-selected="false">Tôi có thể tự làm nước rửa tay không?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="five3-tab" data-toggle="tab" href="#five3" role="tab"
+                            aria-controls="five3" aria-selected="false">Bạn có thể bắt coronavirus từ các bề mặt không?</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-6 wow fadeIn" data-wow-delay="600ms">
-                <div class="media">
-                  <div class="d-flex">
-                    <i class="fas fa-file-medical-alt"></i>
+                <div class="card">
+                  <div class="card-header" id="headingfour">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                      Chi tiết về Coronavirus và COVID-19
+                      <i class="linearicons-chevron-down"></i>
+                    </button>
                   </div>
-                  <div class="media-body">
-                    <h4> COVID-19</h4>
-                    <p>Đọc thêm về coronavirus</p>
+                  <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <ul class="nav nav-tabs" id="myTab4" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link" id="home4-tab" data-toggle="tab" href="#home4" role="tab"
+                            aria-controls="home4" aria-selected="true">Tỷ lệ tử vong COVID là bao nhiêu?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="profile4-tab" data-toggle="tab" href="#profile4" role="tab"
+                            aria-controls="profile4" aria-selected="false">Hệ gen của virus Corona 2019 là gì?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="contact4-tab" data-toggle="tab" href="#contact4" role="tab"
+                            aria-controls="contact4" aria-selected="false">Sự khác biệt giữa coronavirus mới và các coronavirus khác là gì?</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingfive">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                      Sự lây lan của virus
+                      <i class="linearicons-chevron-down"></i>
+                    </button>
+                  </div>
+                  <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <ul class="nav nav-tabs" id="myTab5" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link" id="home5-tab" data-toggle="tab" href="#home5" role="tab"
+                            aria-controls="home5" aria-selected="true">Coronavirus có lây qua không khí không?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="profile5-tab" data-toggle="tab" href="#profile5" role="tab"
+                            aria-controls="profile5" aria-selected="false">Lây lan trong cộng đồng là gì?</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingsix">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                      Nguồn gốc dịch bệnh COVID-19
+                      <i class="linearicons-chevron-down"></i>
+                    </button>
+                  </div>
+                  <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <ul class="nav nav-tabs" id="myTab6" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link" id="home6-tab" data-toggle="tab" href="#home6" role="tab"
+                            aria-controls="home6" aria-selected="true">Hệ gen của virus Corona 2019 là gì?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="profile6-tab" data-toggle="tab" href="#profile6" role="tab"
+                            aria-controls="profile6" aria-selected="false">Vi rút SARS-CoV-2 được phát hiện khi nào?</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="contact6-tab" data-toggle="tab" href="#contact6" role="tab"
+                            aria-controls="contact6" aria-selected="false">Thời gian ủ bệnh virus SARS-CoV-2</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" id="four6-tab" data-toggle="tab" href="#four6" role="tab"
+                            aria-controls="four6" aria-selected="false">Nguyên nhân nhiễm vi rút SARS-CoV-2</a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-5">
-            <img class="img-fluid wow fadeInRight" data-wow-delay="400ms"
-              src="assets/images/svg/home-banner-cleaner.svg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================End Home Banner Area =================-->
-
-    <!--================Check Now Area =================-->
-    <section class="check_now_area">
-      <div class="container">
-        <div class="row m-0 justify-content-between">
-          <div class="left">
-            <div class="media">
-              <div class="d-flex">
-                <img src="assets/images/check-1.png" alt="" />
-                <img src="assets/images/check-2.png" alt="" />
-                <img src="assets/images/check-3.png" alt="" />
-              </div>
-              <div class="media-body">
-                <h4>Bạn có thể bị mắc Covid-19?</h4>
+          <div class="col-lg-8">
+            <div class="tab-content answer_details" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <h4>Virus Corona là gì?</h4>
                 <p>
-                 Hãy thử trình kiểm tra coronavirus đơn giản của chúng tôi<br> để tìm hiểu những gì bạn cần làm.
+                  Virus Corona 2019 là nhóm các virus thuộc phân họ Coronavirinae trong họ Coronaviridae, của bộ Nidovirales. Coronavirus là hệ gen ARN dương sợi đơn kèm nucleocapsid đối xứng xoắn ốc. Bộ gen của Coronavirus lớn khoảng từ 26 – 32 kilo base.
+                </p>
+                <p>
+                  Tên gọi vi rút Corona 2019 có nguồn gốc từ tiếng Latin, trong đó “corona” có nghĩa là “vương miện” hoặc “hào quang”. Virus này có những chiếc gai bao bọc bên ngoài, chúng tương tác với thụ thể trên tế bào, theo cơ chế tương tự chìa khóa và ổ khóa, từ đó cho phép virus xâm nhập vào bên trong. Virus Corona chủng mới là SARS-CoV-2 chưa từng xuất hiện ở người.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <h4>Sự khác biệt giữa COVID-19 và bệnh cúm là gì?</h4>
+                <p>
+                  COVID-19 và bệnh cúm đều là những bệnh truyền nhiễm đường hô hấp do virus gây ra. COVID-19 do virus SARS-CoV-2 gây ra, trong khi bệnh cúm do virus cúm A và B. Những virus này lây lan theo những cách tương tự.
+                </p>
+                <p>
+                 COVID-19 và bệnh cúm gây ra các triệu chứng tương tự. Các bệnh này cũng có thể không gây ra triệu chứng hoặc các triệu chứng nhẹ hoặc nghiêm trọng. Vì có nhiều điểm tương đồng, khó có thể chẩn đoán bạn mắc bệnh nào nếu chỉ dựa vào các triệu chứng. Xét nghiệm có thể được thực hiện để xem liệu bạn có bị nhiễm COVID-19 hay bệnh cúm hay không. Bạn cũng có thể mắc cả hai bệnh cùng một lúc. Tuy nhiên, chúng vẫn có một số khác biệt.
+                </p>
+                <p>
+                  Các triệu chứng COVID-19 thường xuất hiện từ 2 đến 14 ngày sau khi tiếp xúc với SARS-CoV-2. Các triệu chứng cúm thường xuất hiện khoảng 1 đến 4 ngày sau khi tiếp xúc với virus cúm.COVID-19 có thể gây ra các bệnh nghiêm trọng hơn ở một số người so với bệnh cúm. Ngoài ra, COVID-19 có thể gây ra các biến chứng khác với bệnh cúm, chẳng hạn như cục máu đông và hội chứng viêm đa hệ ở trẻ em.
+                </p>
+                <p>
+                  Mặc dù chỉ có một phương pháp điều trị kháng virus COVID-19, nhưng có một số loại thuốc kháng virus có thể được sử dụng để điều trị bệnh cúm. Ngoài ra, bạn có thể tiêm phòng cúm hàng năm để giúp giảm nguy cơ mắc bệnh cúm. Thuốc chủng ngừa cúm cũng có thể làm giảm mức độ nghiêm trọng của bệnh cúm và nguy cơ biến chứng nghiêm trọng. Vaccine có thể được tiêm dưới dạng tiêm hoặc xịt mũi.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <h4>Virus lây lan như thế nào</h4>
+                <p>
+                  Các virus nói chung và virus SARS-CoV-2 nói riêng, trong quá trình lưu hành, sau nhiều lần sao chép và nhân bản có thể xuất hiện những biến đổi trong cấu trúc của gen, nghĩa là có sự thay đổi ở một hoặc một số vị trí trên bộ gen di truyền so với bộ gen ban đầu của virus, điều này được gọi là đột biến gen.
+                </p>
+                <p>
+                  Khi quá trình lây nhiễm tăng nhanh, quá trình virus sao chép và nhân bản cũng gia tăng, các đột biến gen của virus có cơ hội xuất hiện nhiều hơn, dẫn đến khả năng xuất hiện biến thể cao hơn. 
+                </p>
+              </div>
+              <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="four-tab">
+                <h4>Triệu chứng của bệnh COVID-19?</h4>
+                <p>
+                  Trong giai đoạn đầu của đại dịch, người ta cho rằng sổ mũi không phải là triệu chứng của COVID-19, nhiều khả năng là dấu hiệu của bệnh cúm thông thường. Tuy nhiên, từ dữ liệu của các cuộc nghiên cứu sau này cho thấy, sổ mũi, ngạt mũi, chảy nước mũi có thể xuất hiện ở bệnh nhân COVID-19, đặc biệt là những bệnh nhân nhiễm biến thể Delta.
+                </p>
+                <p>
+                  Sau thời gian ủ bệnh (trong khoảng từ 2 đến 14 ngày), các triệu chứng nhiễm COVID 19 bắt đầu xuất hiện như ho khan và sốt nhẹ. Sốt được xác định nghi ngờ COVID 19 là từ 38,1oC – 39oC hay 100,5oF – 102,1oF, thường kèm theo giảm chức năng vị giác và khứu giác.
+                </p>
+                <p>
+                  Bệnh nhân sẽ được điều trị và cách ly tại nhà nếu các triệu chứng ở mức độ nhẹ hoặc trung bình và tự khỏi trong 1 tuần. Khoảng 10% người bệnh vẫn còn những triệu chứng sốt, mệt mỏi, ho, tiêu chảy… vào tuần thứ hai. Nếu các triệu chứng càng kéo dài càng xuất hiện thêm nhiều triệu chứng tăng nặng, đòi hỏi người bệnh phải nhập viện, hồi sức tích cực và thở máy xâm lấn. COVID 19 có diễn tiến khó đoán, đặc biệt là ở bệnh nhân lớn tuổi có bệnh nền đi kèm. Biểu hiện lâm sàng thay đổi từ hoàn toàn không có triệu chứng đến triệu chứng nặng và tử vong.
+                </p>
+                <p>
+                  Đại dịch COVID-19 do virus SARS CoV 2 chủ yếu gây ra hội chứng hô hấp cấp tính nghiêm trọng. Mặc dù vậy, COVID-19 vẫn được ghi nhận với nhiều biến chứng của COVID-19 thường gặp như nhức đầu, chóng mặt, thay đổi ý thức, rối loạn khứu giác, rối loạn vị giác, co giật và đột quỵ.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <h4>Sự khác nhau giữa mắc COVID-19, cảm lạnh, dị ứng và cảm cúm là gì?</h4>
+                <p>
+                  Cả COVID-19 và cảm lạnh thông thường đều do virus gây ra. COVID-19 do SARS-CoV-2 gây ra, trong khi cảm lạnh thông thường thường do rhinovirus gây ra. Những virus này lây lan theo những cách tương tự nhau và gây ra nhiều dấu hiệu và triệu chứng giống nhau. Tuy nhiên, có một vài điểm khác biệt.
+                </p>
+                <p>
+                 Trong khi các triệu chứng COVID-19 thường xuất hiện từ 2 đến 14 ngày sau khi tiếp xúc với SARS-CoV-2, các triệu chứng của cảm lạnh thông thường thường xuất hiện từ 1 đến 3 ngày sau khi tiếp xúc với virus gây cảm lạnh.Không có thuốc chữa cảm lạnh thông thường. Điều trị có thể bao gồm thuốc giảm đau và thuốc trị cảm lạnh không kê đơn, chẳng hạn như thuốc thông mũi. Không giống như COVID-19, cảm lạnh thường vô hại. Hầu hết mọi người đều hồi phục sau cảm lạnh thông thường trong vòng 3 đến 10 ngày.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="profile3" role="tabpanel" aria-labelledby="profile3-tab">
+                <h4> Triệu chứng gây ra bởi virus SARS-CoV-2 qua từng ngày</h4>
+                <p>
+                  Tùy theo thể trạng và sức đề kháng, triệu chứng nhiễm corona qua từng ngày của mỗi cá thể là khác nhau, tuy nhiên những triệu chứng này đều biểu hiện rõ từ 2-14 ngày. Do đó, ngay khi có các dấu hiệu nghi ngờ, người bệnh cần đến ngay các cơ sở y tế gần nhất để được chẩn đoán kịp thời.Ngày 1 đến ngày 3:Dấu hiệu giống bệnh cảm thông thườngViêm họng nhẹ, không sốt, không mệt mỏi Ăn uống và hoạt động bình thường.Ngày 4:Cổ họng bắt đầu đau nhẹ, người lờ đờ.Bắt đầu khan tiếng.Nhiệt độ cơ thể tăng nhẹ.Đau đầu nhẹ, tiêu chảy nhẹ.Bắt đầu chán ăn.Ngày 5:Đau họng nhiều hơn, khan tiếng nhiều hơn.Nhiệt độ cơ thể tăng nhẹCơ thể mệt mỏi, đau nhức các khớp xương.Ngày 6:Triệu chứng gây ra bởi virus SARS-CoV-2 là bắt đầu sốt nhẹ.Ho có đàm hoặc ho khan không đàm.Đau họng nhiều hơn, đau khi nuốt nước bọt, khi ăn hoặc nói.Cơ thể mệt mỏi, buồn nôn.Tiêu chảy, có thể nôn ói.Lưng hoặc ngón tay đau nhức.Ngày 7:Sốt cao dưới 38o Ho nhiều hơn, đàm nhiều hơn.Toàn thân đau nhức.Khó thở.Tiêu chảy và nôn ói nhiều hơn.Ngày 8:Sốt khoảng trên dưới 38o.Khó thở, hơi thở khò khè, nặng lồng ngực.Ho liên tục, đàm nhiều, tắt tiếng.Đau khớp xương, đau đầu, đau lưng.Ngày 9:Các tình trạng như sốt, ho, khó thở, nặng lồng ngực… trở nên nặng nề hơn.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="home2" role="tabpanel" aria-labelledby="home2-tab">
+                <h4>Sự khác nhau giữa mắc COVID-19, cảm lạnh, dị ứng và cảm cúm là gì?</h4>
+                <p>
+                  Cả COVID-19 và cảm lạnh thông thường đều do virus gây ra. COVID-19 do SARS-CoV-2 gây ra, trong khi cảm lạnh thông thường thường do rhinovirus gây ra. Những virus này lây lan theo những cách tương tự nhau và gây ra nhiều dấu hiệu và triệu chứng giống nhau. Tuy nhiên, có một vài điểm khác biệt.
+                </p>
+                <p>
+                 Trong khi các triệu chứng COVID-19 thường xuất hiện từ 2 đến 14 ngày sau khi tiếp xúc với SARS-CoV-2, các triệu chứng của cảm lạnh thông thường thường xuất hiện từ 1 đến 3 ngày sau khi tiếp xúc với virus gây cảm lạnh.Không có thuốc chữa cảm lạnh thông thường. Điều trị có thể bao gồm thuốc giảm đau và thuốc trị cảm lạnh không kê đơn, chẳng hạn như thuốc thông mũi. Không giống như COVID-19, cảm lạnh thường vô hại. Hầu hết mọi người đều hồi phục sau cảm lạnh thông thường trong vòng 3 đến 10 ngày.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="profile2" role="tabpanel" aria-labelledby="profile2-tab">
+                <h4> Triệu chứng gây ra bởi virus SARS-CoV-2 qua từng ngày</h4>
+                <p>
+                  Tùy theo thể trạng và sức đề kháng, triệu chứng nhiễm corona qua từng ngày của mỗi cá thể là khác nhau, tuy nhiên những triệu chứng này đều biểu hiện rõ từ 2-14 ngày. Do đó, ngay khi có các dấu hiệu nghi ngờ, người bệnh cần đến ngay các cơ sở y tế gần nhất để được chẩn đoán kịp thời.Ngày 1 đến ngày 3:Dấu hiệu giống bệnh cảm thông thườngViêm họng nhẹ, không sốt, không mệt mỏi Ăn uống và hoạt động bình thường.Ngày 4:Cổ họng bắt đầu đau nhẹ, người lờ đờ.Bắt đầu khan tiếng.Nhiệt độ cơ thể tăng nhẹ.Đau đầu nhẹ, tiêu chảy nhẹ.Bắt đầu chán ăn.Ngày 5:Đau họng nhiều hơn, khan tiếng nhiều hơn.Nhiệt độ cơ thể tăng nhẹCơ thể mệt mỏi, đau nhức các khớp xương.Ngày 6:Triệu chứng gây ra bởi virus SARS-CoV-2 là bắt đầu sốt nhẹ.Ho có đàm hoặc ho khan không đàm.Đau họng nhiều hơn, đau khi nuốt nước bọt, khi ăn hoặc nói.Cơ thể mệt mỏi, buồn nôn.Tiêu chảy, có thể nôn ói.Lưng hoặc ngón tay đau nhức.Ngày 7:Sốt cao dưới 38o Ho nhiều hơn, đàm nhiều hơn.Toàn thân đau nhức.Khó thở.Tiêu chảy và nôn ói nhiều hơn.Ngày 8:Sốt khoảng trên dưới 38o.Khó thở, hơi thở khò khè, nặng lồng ngực.Ho liên tục, đàm nhiều, tắt tiếng.Đau khớp xương, đau đầu, đau lưng.Ngày 9:Các tình trạng như sốt, ho, khó thở, nặng lồng ngực… trở nên nặng nề hơn.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="contact2" role="tabpanel" aria-labelledby="contact2-tab">
+                <h4>Biểu hiện của bệnh COVID-19 có sổ mũi không? </h4>
+                <p>
+                  Trong giai đoạn đầu của đại dịch, người ta cho rằng sổ mũi không phải là triệu chứng của COVID-19, nhiều khả năng là dấu hiệu của bệnh cúm thông thường. Tuy nhiên, từ dữ liệu của các cuộc nghiên cứu sau này cho thấy, sổ mũi, ngạt mũi, chảy nước mũi có thể xuất hiện ở bệnh nhân COVID-19, đặc biệt là những bệnh nhân nhiễm biến thể Delta.
+                </p>
+                <p>
+                  Theo báo cáo của Tổ chức Y tế Thế giới (WHO), khoảng 5% bệnh nhân mắc Corona virus có triệu chứng nghẹt mũi. Đây không phải là dấu hiệu phổ biến nhất của bệnh, nhưng đây là triệu chứng dễ gây nhầm lẫn với cảm lạnh và cúm. Trên thực tế, nhiều dấu hiệu COVID 19 giống với bệnh cúm như đau đầu, đau nhức cơ thể, mệt mỏi. Một số triệu chứng khác có thể giống như cảm lạnh hoặc dị ứng, như đau họng, ho, sốt và nghẹt mũi.
+                </p>
+                <p>
+                  Báo cáo đưa ra bởi Tổ chức Y tế Thế giới (WHO) cho thấy, trong số 55.924 người mắc COVID 19 được theo dõi, hơn 33% bệnh nhân có biểu hiện ho ra đờm, chất nhầy dày được tạo ra từ phổi. Triệu chứng ho của COVID 19 không phải là hiện tượng ngứa cổ họng khiến người bệnh hắng giọng, cũng không chỉ là do kích thích, mà cơn ho này xuất phát từ vùng ức và các ống phế quản bị viêm rất khó chịu.
+                </p>
+                <p>
+                  Đau họng, ho khan, thậm chí có đờm đặc và bọt, khả năng cao là một trong những triệu chứng điển hình, nghiêm trọng và phổ biến của COVID-19. Dấu hiệu COVID đau họng thường dễ bị nhầm lẫn với đau họng thông thường. Đau họng do bệnh COVID không có hiệu quả điều trị khi uống các thuốc đau họng thông thường. Do đó, nếu cảm thấy ho nhiều, kéo dài, uống thuốc hoặc điều trị tại nhà không đỡ, kết hợp với triệu chứng sốt, khó thở, người bệnh cần đi khám sức khỏe ngay tại các cơ sở khám, chữa bệnh được Nhà nước, Bộ Y tế chỉ định.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="four2" role="tabpanel" aria-labelledby="four2-tab">
+                <h4>Biểu hiện sớm nhất của bệnh COVID-19 gây ra bởi virus SARS-CoV-2 là gì?</h4>
+                <p>
+                  Theo cảnh báo từ Trung tâm Kiểm soát và Phòng ngừa dịch bệnh Hoa Kỳ (CDC Hoa Kỳ), khi mắc COVID 19, một hoặc tất cả các triệu chứng đều có thể xuất hiện bất cứ lúc nào trong vòng 2-14 ngày sau khi tiếp xúc với virus SARS-CoV-2. Theo đó, các biểu hiện sớm nhất để phát hiện bệnh là:
+                </p>
+                <p>
+                <ul>
+                  <il> Sốt: Sốt là dấu hiệu nhận biết corona đầu tiên. Hầu hết trẻ em và người lớn sẽ được xác định là sốt khi nhiệt độ vượt mức 38oC. Các chuyên gia khuyến cáo, bệnh nhân không nên dựa vào nhiệt độ đo buổi sáng vì sốt do virus thường khiến thân nhiệt tăng vào cuối buổi chiều và đầu buổi tối.</il>
+                  <il>Ho khan: Ho là một triệu chứng COVID 19 sớm và phổ biến nhất. Ho do COVID 19 gây ra sẽ không thể điều trị dứt điểm khi uống thuốc ho thông thường. </il>
+                  <il>Mệt mỏi: Mệt mỏi, kiệt sức, đau nhức cơ thể là biểu hiện COVID 19 sớm. Nghiên cứu của WHO cho thấy, khoảng 40% trong số gần 6.000 người mắc bệnh trải qua giai đoạn mệt mỏi. Trạng thái này thậm chí còn kéo dài ngay sau khi COVID 19 kết thúc một vài tuần. </il>
+               </ul>
+             </p>
+              </div>
+              <div class="tab-pane fade" id="five2" role="tabpanel" aria-labelledby="five2-tab">
+                <h4>Triệu chứng của COVID-19 có nghẹt mũi không?</h4>
+                <p>
+                  Theo báo cáo của Tổ chức Y tế Thế giới (WHO), khoảng 5% bệnh nhân mắc Corona virus có triệu chứng nghẹt mũi. Đây không phải là dấu hiệu phổ biến nhất của bệnh, nhưng đây là triệu chứng dễ gây nhầm lẫn với cảm lạnh và cúm. Trên thực tế, nhiều dấu hiệu COVID 19 giống với bệnh cúm như đau đầu, đau nhức cơ thể, mệt mỏi. Một số triệu chứng khác có thể giống như cảm lạnh hoặc dị ứng, như đau họng, ho, sốt và nghẹt mũi.
+                </p>  
+              </div>
+              <div class="tab-pane fade" id="profile4" role="tabpanel" aria-labelledby="profile4-tab">
+                <h4>Hệ gen của virus Corona 2019 là gì?</h4>
+                <p>
+                  Bộ gen của virus Corona 2019 là bộ gen lớn nhất trong số các virus RNA, bao gồm các vùng: vùng 5’UTR, khung đọc mở, vùng 3’UTR và cuối cùng là đuôi-poly (A).
+                </p>
+                <p>
+                  Theo các nghiên cứu, bộ gen của virus Corona 2019 có các mặt tương đồng như sau:
+                </p>
+                <ul>
+                  <il>Tương đồng 50% mã gen so với chủng virus MERS-CoV;</il>
+                  <il>Tương đồng 79,5% mã gen so với chủng virus SARS-CoV;</il>
+                  <il>Tương đồng 96% mã gen so với chủng virus Corona được phát hiện trong dơi, đặc biệt là dơi móng ngựa;</il>
+                  <il>Tương đồng 99% mã gen so với chủng virus Corona có trong loài Tê tê.</il>
+                </ul>
+                <p>
+                  Khi phân tích vi rút Corona 2019, các nhà khoa học nhận thấy vi rút Corona cùng loài với virus gây bệnh SARS vào năm 2003 với độ tương đồng lên đến 94.6% các chuỗi axit amin.
+                </p>
+                <p>
+                  Trong bộ gen của vi rút Corona 2019 có một gen thiết yếu là RdRp (RNA phụ thuộc RNA polymerase), gen này có độ bảo tồn cao, được dùng để chẩn đoán phát hiện vi rút Corona.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="home3" role="tabpanel" aria-labelledby="home3-tab">
+                <h4>Tôi có nên chủng ngừa COVID-19 không?</h4>
+                <p>
+                  Có. Ba loại vắc xin COVID-19 đã được Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA) cho phép sử dụng khẩn cấp cho các nhóm tuổi cụ thể và hiện tại vắc xin Pfizer đã nhận được sự chấp thuận đầy đủ của FDA. Johns Hopkins Medicine xem tất cả các vắc xin COVID-19 được ủy quyền và phê duyệt là có hiệu quả cao trong việc ngăn ngừa bệnh hiểm nghèo, nhập viện và tử vong do COVID-19. 
+                </p>
+              </div>
+              <div class="tab-pane fade" id="profile3" role="tabpanel" aria-labelledby="profile3-tab">
+                <h4>Biến thể delta là gì?</h4>
+                <p>
+                  Kể từ khi bắt đầu đại dịch COVID-19, SARS-CoV-2, loại coronavirus gây ra COVID-19, đã đột biến (thay đổi), dẫn đến các biến thể khác nhau. Một trong số này được gọi là biến thể delta. Delta được coi là một trong những dạng dễ lây lan nhất của coronavirus cho đến nay, và hiện chiếm phần lớn các trường hợp COVID-19 ở Hoa Kỳ
+                </p>
+                <p>
+                  Việc đi du lịch quốc tế nếu bạn chưa được tiêm phòng đầy đủ COVID-19 không được khuyến khích, vì nó khiến bạn có nguy cơ bị nhiễm các biến thể delta. Điều này bao gồm cả trẻ em chưa được tiêm chủng.
+                </p>
+                <p>
+                  Tiêm phòng đầy đủ COVID-19 có thể bảo vệ bạn khỏi biến thể delta . Tất cả ba loại vắc xin COVID-19 được FDA cấp phép hoặc được FDA chấp thuận đều có thể bảo vệ bạn khỏi những tác động nghiêm trọng nhất của biến thể delta. Mặc dù vắc-xin COVID-19 không phải là hoàn hảo, và những người được tiêm chủng đầy đủ vẫn có thể mắc và truyền vi-rút, nhưng chúng có hiệu quả cao trong việc chống lại bệnh coronavirus nghiêm trọng và giảm đáng kể khả năng nhập viện và tử vong do COVID-19.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="contact3" role="tabpanel" aria-labelledby="contact3-tab">
+                <h4>Tôi có nên đeo khẩu trang không?</h4>
+                <p>
+                  CDC tiếp tục theo dõi sự lây lan của COVID-19 và khuyến nghị đeo khẩu trang - đối với những người đã được  tiêm chủng đầy đủ  cũng như những người chưa được tiêm chủng - đặc biệt là khi bạn đang ở trong những khu vực có khả năng lây truyền vi rút cao.
+                </p>
+                <p>
+                  CDC khuyến nghị đeo khẩu trang và duy trì khoảng cách vật lý trong văn phòng bác sĩ, bệnh viện hoặc cơ sở chăm sóc dài hạn. Hướng dẫn an toàn hiện tại của Johns Hopkins Medicine yêu cầu mọi người phải đeo khẩu trang bên trong các cơ sở của chúng tôi, bao gồm bệnh viện, trung tâm chăm sóc và văn phòng.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="four3" role="tabpanel" aria-labelledby="four3-tab">
+                <h4>Tôi có thể tự làm nước rửa tay không?</h4>
+                <p>
+                 Không có nghiên cứu nào chứng minh hiệu quả của nước rửa tay tự chế trong việc tiêu diệt vi rút coronavirus trên tay của mọi người. Các chuyên gia đồng ý rằng phương pháp tốt nhất để làm sạch tay là rửa ít nhất 20 giây với xà phòng và nước.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="five3" role="tabpanel" aria-labelledby="five3-tab">
+                <h4>Bạn có thể bắt coronavirus từ các bề mặt không?</h4>
+                <p>
+                  Mặc dù coronavirus suy yếu và chết theo thời gian bên ngoài cơ thể người, các nghiên cứu cho thấy nó có thể sống trên các bề mặt trong vài giờ hoặc lên đến vài ngày, tùy thuộc vào bề mặt, nhiệt độ và các yếu tố môi trường khác. Ví dụ, một lượng nhỏ coronavirus có thể được phát hiện trên bề mặt nhựa trong tối đa ba ngày, trên thép không gỉ trong tối đa hai ngày và lên đến một ngày trên bìa cứng,  nhưng nó ở dưới 0,1% vật liệu vi rút ban đầu .
+                </p>
+                <p>
+                  Cho đến nay, bằng chứng cho thấy vi rút không tồn tại tốt trên bề mặt mềm (chẳng hạn như vải) như trên bề mặt cứng thường xuyên chạm vào như nút thang máy và tay nắm cửa.
+                </p>
+                <p>
+                  Nghiên cứu thêm sẽ cung cấp thông tin về coronavirus và thời gian nó sống trên các bề mặt. Trong thời gian chờ đợi, hãy  rửa tay thật sạch  sau khi ở những nơi công cộng.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="home4" role="tabpanel" aria-labelledby="home4-tab">
+                <h4>Tỷ lệ tử vong COVID là bao nhiêu?</h4>
+                <p>
+                  COVID-19 gây ra nhiều trường hợp bệnh nặng và nhiều ca tử vong hơn so với bệnh cúm theo mùa. Những người trên 85 tuổi có nguy cơ tử vong cao nhất và trẻ em dưới 19 tuổi có nguy cơ tử vong thấp nhất, nhưng điều này có thể thay đổi khi nhiều người được kiểm tra hơn và xu hướng trở nên rõ ràng hơn đối với các biến thể. Nếu theo thời gian, thử nghiệm rộng rãi phát hiện các trường hợp nhẹ hơn, không béo của COVID-19, tỷ lệ tử vong sẽ giảm xuống.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="contact4" role="tabpanel" aria-labelledby="contact4-tab">
+                <h4>
+                 Sự khác biệt giữa coronavirus mới và các coronavirus khác là gì?
+                </h4>
+                <p>
+                  Có nhiều loại coronavirus khác nhau. Một số chỉ ảnh hưởng đến động vật. Một số đã lưu hành trong con người trong nhiều năm, gây bệnh đường hô hấp và cảm lạnh. Một số khác đã từng gây ra các đợt bùng phát bệnh nhỏ và nghiêm trọng ở người trong quá khứ, chẳng hạn như coronavirus gây ra hội chứng hô hấp cấp tính nghiêm trọng (SARS) vào năm 2003 và hội chứng hô hấp Trung Đông (MERS) vào năm 2012. Loại coronavirus mới khác với những loại này, và là loại đầu tiên xác định vào tháng 12 năm 2019.
+                </p>
+                
+              </div>
+              <div class="tab-pane fade" id="home5" role="tabpanel" aria-labelledby="home5-tab">
+                <h4>Coronavirus có lây qua không khí không?</h4>
+                <p>
+                 Có, coronavirus có thể được truyền qua không khí bởi các hạt hô hấp nhỏ có chứa virus. Những phần tử lây nhiễm này được phát tán vào không khí khi một người mang virus coronavirus hít thở, nói chuyện, hát, ho hoặc hắt hơi. CDC đã cập nhật thông tin về  sự lây lan của coronavirus trong không khí .
+                </p>
+                <p>
+                 Các giọt hô hấp có kích thước khác nhau, nhưng nhìn chung chúng được coi là lớn hay nhỏ. Các giọt hô hấp lớn có thể nhìn thấy và chúng rơi xuống đất tương đối gần với người thở ra - thường là vài giây đến một phút sau khi họ thở ra. Tuy nhiên, các giọt nhỏ hơn trong đường hô hấp có thể lơ lửng trong không khí từ vài phút đến hàng giờ, và chúng có thể bay xa người thở ra.
+                </p>
+                <p>
+                  Thực tế là coronavirus có thể lây nhiễm qua không khí là lý do tại sao việc đeo khẩu trang  khi ở gần những người khác là rất quan trọng  , ngay cả sau khi bạn đã được tiêm phòng đầy đủ. Khẩu trang ngăn không cho các giọt đường hô hấp lây lan, không chỉ khi bạn ho và hắt hơi, mà còn khi bạn đang nói chuyện, ca hát hoặc tập thể dục.
+                </p>
+                <p>
+                  Ngoài việc đeo khẩu trang, duy trì khoảng cách cơ thể (ít nhất là 6 feet), rửa tay và làm sạch và khử trùng bề mặt là những cách quan trọng để ngăn ngừa lây truyền vi rút. Khi vi rút coronavirus đang lây lan khắp cộng đồng của bạn, tránh xa các khu vực trong nhà thông gió kém và tụ tập đông người trong nhà là những cách quan trọng để tránh gặp phải sự tập trung của các giọt nhỏ lơ lửng và các phần tử mang vi rút.
+                </p>
+                <p>Hiếm khi, vi-rút có thể lây lan khi chạm vào các bề mặt tiếp xúc nhiều như công tắc đèn, tay nắm cửa hoặc tay vịn và sau đó chạm vào mặt, miệng hoặc mắt của bạn. Đảm bảo thường xuyên khử trùng các bề mặt tiếp xúc nhiều và rửa tay hoặc sử dụng nước rửa tay thường xuyên.</p>
+              </div>
+              <div class="tab-pane fade" id="profile5" role="tabpanel" aria-labelledby="profile5-tab">
+                <h4>Lây lan trong cộng đồng nghĩa là gì ?</h4>
+                <p>
+                  Lây lan trong cộng đồng nghĩa là mọi người bị lây nhiễm vi-rút trong một khu vực, bao gồm cả một số đối tượng không biết rõ họ đã bị lây nhiễm ở đâu và bằng cách nào. Mỗi sở y tế xác định sự lây lan trong cộng đồng khác nhau tùy theo tình hình địa phương. Để biết thêm thông tin về lây lan trong cộng đồng tại khu vực của quý vị, xin vui lòng truy cập trang web của sở y tế của quý vị.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="home6" role="tabpanel" aria-labelledby="home6-tab">
+                <h4>Hệ gen của virus Corona 2019 là gì?</h4>
+                <p>
+                  Bộ gen của virus Corona 2019 là bộ gen lớn nhất trong số các virus RNA, bao gồm các vùng: vùng 5’UTR, khung đọc mở, vùng 3’UTR và cuối cùng là đuôi-poly (A).
+                </p>
+                <p>
+                  Theo các nghiên cứu, bộ gen của virus Corona 2019 có các mặt tương đồng như sau:
+                </p>
+                <ul>
+                  <il>Tương đồng 50% mã gen so với chủng virus MERS-CoV;</il>
+                  <il>Tương đồng 79,5% mã gen so với chủng virus SARS-CoV;</il>
+                  <il>Tương đồng 96% mã gen so với chủng virus Corona được phát hiện trong dơi, đặc biệt là dơi móng ngựa;</il>
+                  <il>Tương đồng 99% mã gen so với chủng virus Corona có trong loài Tê tê.</il>
+                </ul>
+                <p>
+                  Khi phân tích vi rút Corona 2019, các nhà khoa học nhận thấy vi rút Corona cùng loài với virus gây bệnh SARS vào năm 2003 với độ tương đồng lên đến 94.6% các chuỗi axit amin.
+                </p>
+                <p>
+                  Trong bộ gen của vi rút Corona 2019 có một gen thiết yếu là RdRp (RNA phụ thuộc RNA polymerase), gen này có độ bảo tồn cao, được dùng để chẩn đoán phát hiện vi rút Corona.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="profile6" role="tabpanel" aria-labelledby="profile6-tab">
+                <h4>
+                 Vi rút SARS-CoV-2 được phát hiện khi nào?
+                </h4>
+                <p>
+                  Bùng phát vào cuối tháng 12/2019, bắt nguồn từ một chợ hải sản ở Hồ Nam, Vũ Hán, miền Trung Trung Quốc, virus SARS-CoV-2 ban đầu được xác nhận là một loại bệnh “viêm phổi lạ” hoặc “viêm phổi không rõ nguyên nhân”. Chỉ sau 100 ngày xuất hiện, đại dịch viêm đường hô hấp cấp do virus SARS-CoV-2 đã nhanh chóng tác động tới các lĩnh vực kinh tế, xã hội, thị trường tài chính chao đảo, nền kinh tế toàn cầu rơi vào suy thoái với tỷ lệ thất nghiệp và nghèo đói chưa từng có trong lịch sử.
+                </p>
+                <p>
+                  Cho đến nay, đã có 215 quốc gia, vùng lãnh thổ (trong đó có 2 tàu du lịch) ghi nhận ca mắc COVID-19.
+                </p>
+                
+              </div>
+              <div class="tab-pane fade" id="contact6" role="tabpanel" aria-labelledby="contact6-tab">
+                <h4>Thời gian ủ bệnh virus SARS-CoV-2</h4>
+                <p>
+                  Theo CDC Mỹ, các triệu chứng COVID-19 thường xuất hiện từ ngày thứ 2 – 14 sau khi nhiễm virus tùy thuộc vào từng cá thể, trung bình là 5 ngày. Riêng với biến thể Delta, thời gian ủ bệnh ngắn, chỉ khoảng 2 – 4 ngày. Trong thời gian này, virus vẫn có thể truyền bệnh cho người khác
+                </p>
+                <p>
+                  1. Đối với Coronavirus :Các ước tính hiện tại cho thấy, các chủng virus Corona chẳng hạn như MERS và SARS có thời gian ủ bệnh khoảng 2-11 ngày. Giống như các bệnh về đường hô hấp khác, sau khi hết giai đoạn ủ bệnh, người nhiễm Coronavirus sẽ xuất hiện các triệu chứng gồm sổ mũi, đau họng, ho và sốt… Bệnh có thể diễn tiến nặng ở một số người khi gây ra viêm phổi cấp. Nguy hiểm hơn, Covid-19 có thể nhanh chóng gây tử vong cho đối tượng nguy cơ cao như người già, người mắc bệnh mạn tính (tiểu đường, tim mạch, ung thư, viêm phổi tắc nghẽn mãn tính COPD…).
+                </p>
+                <p>
+                  2. Đối với chủng mới: Viêm đường hô hấp cấp do virus Corona chủng mới có thể xuất hiện các triệu chứng sau thời gian ủ bệnh kéo dài từ 2 đến 14 ngày, trung bình là 5 ngày. Trong thời gian này, virus vẫn có thể truyền bệnh cho người khác. Mặc dù vậy, nhiều nghiên cứu cũng chỉ ra rằng, sẽ có một số ít trường hợp thời gian ủ bệnh Sars-Cov 2 có thể kéo dài hơn 14 ngày. Nghiên cứu  được thực hiện bởi Trường Y tế Cộng đồng Johns Hopkins Bloomberg (Mỹ) cho thấy, trong số 10.000 đối tượng bị nhiễm Covid-19 thì có khoảng 101 trường hợp xuất hiện các triệu chứng đầu tiên sau 14 ngày. Do đó, các chuyên gia cho rằng các việc tiếp xúc với người không có biểu hiện bệnh không có nghĩa là an toàn. Nói cách khác, Covid-19 có thể lây nhiễm ngay cả trước khi các triệu chứng đầu tiên xuất hiện.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="four6" role="tabpanel" aria-labelledby="four6-tab">
+                <h4>Nguyên nhân nhiễm vi rút SARS-CoV-2</h4>
+                <p>
+                  Người bị nhiễm virus SARS-CoV-2 là từ người tiếp xúc với các giọt dịch hô hấp của cơ thể của người có mầm bệnh khi hắt hơi, ho hoặc thở ra. Các nhà khoa học và quan chức có trách nhiệm đã xác nhận ba cách lây truyền: truyền trực tiếp, truyền tiếp xúc và truyền khí dung.
+                <p>
+                  Trung tâm kiểm soát và phòng ngừa dịch bệnh Hoa Kỳ (CDC) đã đưa ra danh sách những người có nguy cơ cao nhất nhiễm vi rút Corona. Đây là nhóm đối tượng cực kỳ nhạy cảm và dễ tử vong do virus Corona gồm cả trẻ em, người lớn, người cao tuổi, phụ nữ có thai, người có tiền sử bệnh, người bị suy giảm miễn dịch hoặc có các bệnh lý nền (bệnh tim, bệnh phổi mạn tính, suy giảm miễn dịch, béo phì, đái tháo đường…).
+                </p>
+                <p>
+                  Người bệnh có thể lây truyền virus ngay cả khi họ không có triệu chứng điển hình. Cần xác định người bệnh bằng xét nghiệm, cách ly, và chăm sóc y tế, tùy thuộc vào mức độ nghiêm trọng. Thậm chí, người đã được xác định mắc COVID-19 nhưng không biểu hiện triệu chứng cũng cần được cách ly và thực hiện nghiêm túc các biện pháp giãn cách, kiểm soát để hạn chế tiếp xúc với người khác nhằm ngăn chặn sự lây lan của bệnh.  
                 </p>
               </div>
             </div>
           </div>
-          <div class="right">
-            <a class="icon_btn wow fadeInRight" data-wow-delay="400ms" href="#">Kiểm tra ngay<i class="far fa-arrow-right"></i></a>
-          </div>
         </div>
       </div>
     </section>
-    <!--================End Check Now Area =================-->
-
-    <!--================Home About Area =================-->
-    <section class="home_about_corona">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="home_ab_img wow fadeInUp" data-wow-delay="400ms">
-              <img src="assets/images/about.png" alt="" />
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="home_ab_text">
-              <div class="home_ab_text_inner">
-                <div class="home_ab_item">
-                  <h6>DỊCH COVID-19 </h6>
-                  <h4>Giới thiệu về Coronavirus</h4>
-                  <p>
-                   Bệnh Coronavirus 2019 (COVID-19) là một bệnh truyền nhiễm do virus 
-                   Corona gây hội chứng hô hấp cấp tính nghiêm trọng 2. 
-                   Căn bệnh này được xác định lần đầu tiên vào năm 2019 tại Vũ Hán,
-                    thủ phủ của Hồ Bắc, Trung Quốc và từ đó lan rộng ra toàn cầu, 
-                    dẫn đến năm 2019–2020 đại dịch do vi-rút corona gây ra.
-                  </p>
-                </div>
-                <div class="home_ab_item">
-                  <h4>COVID-19 là gì?</h4>
-                  <p>
-                    COVID-19 là một dòng coronavirus mới chưa được xác định trước đây ở người. 
-                    Nó được xác định lần đầu tiên ở Vũ Hán, tỉnh Hồ Bắc, Trung Quốc, 
-                    nơi nó đã gây ra một đợt bùng phát lớn và đang diễn ra. Nó đã lan rộng hơn ở Trung Quốc.
-                  </p>
-                  <a class="text_btn" href="#">Đọc thêm về <i class="fas fa-arrow-right"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!--================End Answers Area =================-->
     <!--================Worldwide Tracker Area =================-->
     <section class="world_wide_tracker pad_top">
       <div class="container">
@@ -454,794 +869,7 @@
       </div>
     </section>
     <!--================End Worldwide Tracker Area =================-->
-
-    <!--================Symptoms Area =================-->
-    <section class="symptoms_area">
-      <div class="container">
-        <ul class="nav image_list">
-          <li><img src="assets/images/symptoms-user/sm-1.png" alt=""></li>
-          <li><img src="assets/images/symptoms-user/sm-2.png" alt=""></li>
-          <li><img src="assets/images/symptoms-user/sm-3.png" alt=""></li>
-        </ul>
-        <div class="title_text wow fadeInUp" data-wow-delay="400ms">
-          <h5>Các triệu chứng của COVID-19</h5>
-          <h2>Các triệu chứng cơ bản của COVID-19</h2>
-        </div>
-        <div class="row symptoms_inner">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="400ms">
-            <div class="symptoms_item">
-              <div class="media">
-                <div class="d-flex">
-                  <img src="assets/images/symptoms-user/symptoms-1.png" alt="" />
-                </div>
-                <div class="media-body">
-                  <h4>Sốt cao</h4>
-                  <p>
-                    Sau thời gian ủ bệnh (từ 2 đến 14 ngày). Sốt được xác định có nguy cơ mắc COVID-19 là đạt ít nhất 39 ° C thường kèm theo giảm chức năng vị giác và khứu giác.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="500ms">
-            <div class="symptoms_item">
-              <div class="media">
-                <div class="d-flex">
-                  <img src="assets/images/symptoms-user/symptoms-2.png" alt="" />
-                </div>
-                <div class="media-body">
-                  <h4>Khó thở</h4>
-                  <p>
-                    Bạn cảm thấy nóng khi chạm vào ngực hoặc lưng Đây là một dấu hiệu phổ biến và cũng có thể xuất hiện sau 2-10 ngày nếu bạn bị ảnh hưởng.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="600ms">
-            <div class="symptoms_item">
-              <div class="media">
-                <div class="d-flex">
-                  <img src="assets/images/symptoms-user/symptoms-3.png" alt="" />
-                </div>
-                <div class="media-body">
-                  <h4>Ho khan</h4>
-                  <p>
-                    Ho là một triệu chứng quan trọng khác, nhưng nó không chỉ là bất kỳ cơn ho nào. Đó hẳn là một cơn ho khan mà bạn cảm thấy tức ngực
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="700ms">
-            <div class="symptoms_item">
-              <div class="media">
-                <div class="d-flex">
-                  <img src="assets/images/symptoms-user/symptoms-4.png" alt="" />
-                </div>
-                <div class="media-body">
-                  <h4>Đau đầu</h4>
-                  <p>
-                    Cứ 6 người thì có 1 người nhiễm COVID-19 bị bệnh nặng và khó thở hoặc thở gấp.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================End Symptoms Area =================-->
-
-    <!--================Protect Yourself Area =================-->
-    <section class="protect_yourself_area p_100">
-      <div class="container">
-        <div class="main_title text-center">
-          <h5>Bạn cần làm gì</h5>
-          <h2>Bảo vệ bản thân bằng cách nào?</h2>
-        </div>
-        <div class="row protect_inner">
-          <div class="col-lg-6">
-            <div class="row protect_list_inner">
-              <div class="col-6">
-                <div class="protect_list_item">
-                  <div class="protect_list_title">
-                    <h3>Bạn nên làm</h3>
-                    <h6>Hãy làm theo</h6>
-                  </div>
-                  <ul class="nav flex-column">
-                    <li>
-                      <a href="#"><i class="fas fa-home"></i></i>Ở nhà là chống dịch</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-head-side-mask"></i>Đeo khẩu trang</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-box-tissue"></i>Luôn sử dụng khăn giấy</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-couch"></i>Khử trùng nhà của bạn</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-hands-wash"></i>Luôn rửa tay</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-thermometer"></i>Tự cách ly</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-prescription-bottle-alt"></i>Ăn uống lành mạnh.</a>
-                    </li>
-                    
-                  </ul>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="protect_list_item red">
-                  <div class="protect_list_title">
-                    <h3>Bạn nên tránh</h3>
-                    <h6>Hãy làm theo</h6>
-                  </div>
-                  <ul class="nav flex-column">
-                    <li>
-                      <a href="#"><i class="fas fa-people-arrows"></i>Không tụ tập đông người</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-paw"></i>Tránh động vật</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-fist-raised"></i>Không đưa tay lên mặt</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-handshake-slash"></i>Không bắt tay</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-chair"></i>Tránh tiếp xúc các bề mặt</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-tint-slash"></i>Tránh các giọt bắn</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fas fa-plane-slash"></i>Không đi du lịch</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="protect_self_text">
-              <h3>Tự cách ly tại nhà như thế nào?</h3>
-              <p>
-                Nếu bạn cần phải tự cách li, bạn nên hành động ngay lập tức. Bạn phải ở trong nhà và tránh tiếp xúc với người khác.
-              </p>
-              <a class="text_btn" href="#">Bạn có thể tự bảo vệ mình bằng cách nào khác?
-                <i class="fas fa-arrow-right"></i></a>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="protect_img text-center apps_craft_animation">
-              <img class="img-fluid wow fadeIn" data-wow-delay="500ms" src="assets/images/protect01.jpg" alt="" />
-              <ul class="nav">
-                <li><img src="assets/images/icon/project-virus-1.png" alt=""></li>
-                <li><img src="assets/images/icon/project-virus-2.png" alt=""></li>
-                <li><img class="layer layer2" data-depth="0.5" src="assets/images/icon/project-virus-3.png" alt=""></li>
-                <li><img src="assets/images/icon/project-virus-4.png" alt=""></li>
-                <li><img src="assets/images/icon/project-virus-5.png" alt=""></li>
-                <li><img src="assets/images/icon/project-virus-6.png" alt=""></li>
-                <li><img src="assets/images/icon/project-virus-7.png" alt=""></li>
-                <li><img src="assets/images/icon/project-virus-8.png" alt=""></li>
-                <li><img class="layer layer2" data-depth="0.5" src="assets/images/icon/project-virus-9.png" alt=""></li>
-                <li><img src="assets/images/icon/project-virus-10.png" alt=""></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================End Protect Yourself Area =================-->
-
-    <!--================Washing Process Area =================-->
-    <section class="washing_process_area pad_btm">
-      <div class="container">
-        <div class="main_title text-center white">
-          <h5>Quy trình rửa tay</h5>
-          <h2>Rửa tay đúng cách</h2>
-        </div>
-        <div class="washing_process_inner row">
-          <div class="col-lg-2 col-sm-4 col-6 wow fadeIn" data-wow-delay="400ms">
-            <div class="washing_item">
-              <div class="icon">
-                <img src="assets/images/icon/washing-1.png" alt="" />
-                <div class="number">
-                  1
-                </div>
-              </div>
-              <p><span>Thoa xà phòng</span> và xoa hai tay lại với nhau</p>
-            </div>
-          </div>
-          <div class="col-lg-2 col-sm-4 col-6 wow fadeIn" data-wow-delay="500ms">
-            <div class="washing_item">
-              <div class="icon">
-                <img src="assets/images/icon/washing-2.png" alt="" />
-                <div class="number">
-                  2
-                </div>
-              </div>
-              <p>
-                <span>Dùng một tay</span> xoa mu bàn tay kia và ngược lại.</p>
-            </div>
-          </div>
-          <div class="col-lg-2 col-sm-4 col-6 wow fadeIn" data-wow-delay="600ms">
-            <div class="washing_item">
-              <div class="icon">
-                <img src="assets/images/icon/washing-3.png" alt="" />
-                <div class="number">
-                  3
-                </div>
-              </div>
-              <p>
-                <span>Xoa hai bàn tay </span> với nhau và làm sạch giữa các ngón tay của bạn
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-2 col-sm-4 col-6 wow fadeIn" data-wow-delay="700ms">
-            <div class="washing_item">
-              <div class="icon">
-                <img src="assets/images/icon/washing-4.png" alt="" />
-                <div class="number">
-                  4
-                </div>
-              </div>
-              <p>
-                <span>Xoa mu bàn tay</span> vào lòng bàn tay
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-2 col-sm-4 col-6 wow fadeIn" data-wow-delay="800ms">
-            <div class="washing_item">
-              <div class="icon">
-                <img src="assets/images/icon/washing-5.png" alt="" />
-                <div class="number">
-                  5
-                </div>
-              </div>
-              <p>
-                <span>Dùng tay kia</span> xoa ngón tay cái và ngược lại
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-2 col-sm-4 col-6 wow fadeIn" data-wow-delay="900ms">
-            <div class="washing_item">
-              <div class="icon">
-                <img src="assets/images/icon/washing-6.png" alt="" />
-                <div class="number">
-                  6
-                </div>
-              </div>
-              <p>
-                <span>Xoa các đầu ngón tay</span> vào lòng bàn tay kia và ngược lại
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================End Washing Process Area =================-->
-
-    <!--================Prevent Area =================-->
-    <section class="prevent_area">
-      <div class="container">
-        <div class="row prevent_inner">
-          <div class="col-lg-6">
-            <div class="prevent_item_inner row">
-              <div class="col-sm-6 wow fadeInUp" data-wow-delay="400ms">
-                <div class="prevent_item">
-                  <div class="prevent_img">
-                    <img class="img-fluid" src="assets/images/prevent/prevent-1.png" alt="" />
-                  </div>
-                  <div class="prevent_text">
-                    <h4>Stay at home</h4>
-                    <p>
-                      Hãy ở nhà nếu bạn nhận thấy các triệu chứng và hỏi ý kiến ​​bác sĩ qua điện thoại.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 wow fadeInUp" data-wow-delay="500ms">
-                <div class="prevent_item">
-                  <div class="prevent_img">
-                    <img class="img-fluid" src="assets/images/prevent/prevent-2.png" alt="" />
-                  </div>
-                  <div class="prevent_text">
-                    <h4>Rửa tay thường xuyên</h4>
-                    <p>
-                      Làm sạch tay bằng chất tẩy rửa có cồn hoặc rửa bằng xà phòng trong ít nhất 20 giây
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 wow fadeInUp" data-wow-delay="600ms">
-                <div class="prevent_item">
-                  <div class="prevent_img">
-                    <img class="img-fluid" src="assets/images/prevent/prevent-3.png" alt="" />
-                  </div>
-                  <div class="prevent_text">
-                    <h4>Giãn cách xã hội</h4>
-                    <p>
-                      Giữ khoảng cách ít nhất 2 m giữa bạn và bất kỳ ai nếu bạn<br> đi giữa mọi người.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 wow fadeInUp" data-wow-delay="700ms">
-                <div class="prevent_item">
-                  <div class="prevent_img">
-                    <img class="img-fluid" src="assets/images/prevent/prevent-4.png" alt="" />
-                  </div>
-                  <div class="prevent_text">
-                    <h4>Đeo khẩu trang</h4>
-                    <p>
-                      Khi bạn ở gần những người khác và trước khi bạn vào nhà cung cấp dịch vụ chăm sóc sức khỏe.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="prevent_details">
-              <div class="prevent_details_text">
-                <h5>Bạn nên làm gì những gì?</h5>
-                <h2>Làm thế nào để ngăn chặn Virus Corona?</h2>
-                <p>
-                  Một số điểm về cách thức lây lan của căn bệnh này đã được xác định. WHO và CDC tuyên bố rằng căn bệnh này chủ yếu lây lan khi tiếp xúc gần và do các giọt bắn tạo ra khi người ta ho hoặc hắt hơi; tiếp xúc gần trong vòng 1 đến 2 mét. Một nghiên cứu ở Singapore đã phát hiện ra rằng một cơn ho khi không đeo khẩu trang có thể dẫn đến những giọt nhỏ bay đến 4,5 mét.
-                </p>
-                <p>
-                  Các giọt bắn qua hô hấp cũng có thể được tạo ra trong quá trình thở ra, kể cả khi nói chuyện, mặc dù vi-rút nói chung không lây nhiễm trong không khí. Những giọt này có thể rơi vào miệng hoặc mũi của những người ở gần đó hoặc có thể bị hít vào phổi...
-                </p>
-                <a class="green_btn" href="#"><i class="linearicons-shield-check"></i>Đọc thêm về Phòng chống COVID-19</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================End Prevent Area =================-->
-
-    <!--================Answers Area =================-->
-    
-    <!--================End Home About Area =================-->
-    <section class="faq_area">
-      <div class="container">
-        <div class="main_title">
-          <h5>Có một vài câu hỏi? Tìm câu trả lời!</h5>
-          <h2>Các câu hỏi thường gặp</h2>
-        </div>
-        <div class="row answer_inner">
-          <div class="col-lg-4">
-            <div class="question_list">
-              <div class="accordion" id="accordionExample">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                      aria-expanded="true" aria-controls="collapseOne">
-                      Đại dịch
-                      <i class="fas fa-chevron-down"></i>
-                    </button>
-                  </div>
-
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                    data-parent="#accordionExample">
-                    <div class="card-body">
-                      <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item">
-                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                            aria-controls="home" aria-selected="true">Coronavirus là gì?</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                            aria-controls="profile" aria-selected="false">Sự khác biệt giữa COVID-19 và bệnh cúm là gì?</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
-                            aria-controls="contact" aria-selected="false">Virus lây lan như thế nào?</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="four-tab" data-toggle="tab" href="#four" role="tab"
-                            aria-controls="four" aria-selected="false">Các triệu chứng như thế nào?</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                      data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     Triệu chứng Coronavirus
-                      <i class="fas fa-chevron-down"></i>
-                    </button>
-                  </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                    data-parent="#accordionExample">
-                    <div class="card-body">
-                      <ul class="nav nav-tabs" id="myTab3" role="tablist">
-                        <li class="nav-item">
-                          <a class="nav-link" id="home3-tab" data-toggle="tab" href="#home3" role="tab"
-                            aria-controls="home3" aria-selected="true">Sự khác biệt giữa COVID-19 & bệnh cúm?</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="profile3-tab" data-toggle="tab" href="#profile3" role="tab"
-                            aria-controls="profile3" aria-selected="false">Triệu chứng gây ra bởi virus SARS-CoV-2 qua từng ngày?</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="contact3-tab" data-toggle="tab" href="#contact3" role="tab"
-                            aria-controls="contact3" aria-selected="false">Biểu hiện của bệnh COVID-19 có sổ mũi không?</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="four3-tab" data-toggle="tab" href="#four3" role="tab"
-                            aria-controls="four3" aria-selected="false">Biểu hiện sớm nhất của bệnh COVID-19 gây ra bởi virus SARS-CoV-2 là gì?</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="five3-tab" data-toggle="tab" href="#five3" role="tab"
-                            aria-controls="five3" aria-selected="false">Triệu chứng của COVID-19 có nghẹt mũi không?</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingfour">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                      data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                      Nguồn gốc dịch bệnh COVID-19
-                      <i class="fas fa-chevron-down"></i>
-                    </button>
-                  </div>
-                  <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
-                    <div class="card-body">
-                      <ul class="nav nav-tabs" id="myTab4" role="tablist">
-                        <li class="nav-item">
-                          <a class="nav-link" id="profile4-tab" data-toggle="tab" href="#profile4" role="tab"
-                            aria-controls="profile4" aria-selected="false">Hệ gen của virus Corona 2019 là gì?</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="contact4-tab" data-toggle="tab" href="#contact4" role="tab"
-                            aria-controls="contact4" aria-selected="false">Vi rút SARS-CoV-2 được phát hiện khi nào?</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="four4-tab" data-toggle="tab" href="#four4" role="tab"
-                            aria-controls="four4" aria-selected="false">Thời gian ủ bệnh virus SARS-CoV-2</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" id="five4-tab" data-toggle="tab" href="#five4" role="tab"
-                            aria-controls="five4" aria-selected="false">Nguyên nhân nhiễm vi rút SARS-CoV-2</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8">
-            <div class="tab-content answer_details" id="myTabContent">
-              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <h4>Virus Corona là gì?</h4>
-                <p>
-                  Virus Corona 2019 là nhóm các virus thuộc phân họ Coronavirinae trong họ Coronaviridae, của bộ Nidovirales. Coronavirus là hệ gen ARN dương sợi đơn kèm nucleocapsid đối xứng xoắn ốc. Bộ gen của Coronavirus lớn khoảng từ 26 – 32 kilo base.
-                </p>
-                <p>
-                  Tên gọi vi rút Corona 2019 có nguồn gốc từ tiếng Latin, trong đó “corona” có nghĩa là “vương miện” hoặc “hào quang”. Virus này có những chiếc gai bao bọc bên ngoài, chúng tương tác với thụ thể trên tế bào, theo cơ chế tương tự chìa khóa và ổ khóa, từ đó cho phép virus xâm nhập vào bên trong. Virus Corona chủng mới là SARS-CoV-2 chưa từng xuất hiện ở người.
-                </p>
-              </div>
-              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                <h4>Sự khác biệt giữa COVID-19 và bệnh cúm là gì?</h4>
-                <p>
-                  COVID-19 và bệnh cúm đều là những bệnh truyền nhiễm đường hô hấp do virus gây ra. COVID-19 do virus SARS-CoV-2 gây ra, trong khi bệnh cúm do virus cúm A và B. Những virus này lây lan theo những cách tương tự.
-                </p>
-                <p>
-                 COVID-19 và bệnh cúm gây ra các triệu chứng tương tự. Các bệnh này cũng có thể không gây ra triệu chứng hoặc các triệu chứng nhẹ hoặc nghiêm trọng. Vì có nhiều điểm tương đồng, khó có thể chẩn đoán bạn mắc bệnh nào nếu chỉ dựa vào các triệu chứng. Xét nghiệm có thể được thực hiện để xem liệu bạn có bị nhiễm COVID-19 hay bệnh cúm hay không. Bạn cũng có thể mắc cả hai bệnh cùng một lúc. Tuy nhiên, chúng vẫn có một số khác biệt.
-                </p>
-                <p>
-                  Các triệu chứng COVID-19 thường xuất hiện từ 2 đến 14 ngày sau khi tiếp xúc với SARS-CoV-2. Các triệu chứng cúm thường xuất hiện khoảng 1 đến 4 ngày sau khi tiếp xúc với virus cúm.COVID-19 có thể gây ra các bệnh nghiêm trọng hơn ở một số người so với bệnh cúm. Ngoài ra, COVID-19 có thể gây ra các biến chứng khác với bệnh cúm, chẳng hạn như cục máu đông và hội chứng viêm đa hệ ở trẻ em.
-                </p>
-                <p>
-                  Mặc dù chỉ có một phương pháp điều trị kháng virus COVID-19, nhưng có một số loại thuốc kháng virus có thể được sử dụng để điều trị bệnh cúm. Ngoài ra, bạn có thể tiêm phòng cúm hàng năm để giúp giảm nguy cơ mắc bệnh cúm. Thuốc chủng ngừa cúm cũng có thể làm giảm mức độ nghiêm trọng của bệnh cúm và nguy cơ biến chứng nghiêm trọng. Vaccine có thể được tiêm dưới dạng tiêm hoặc xịt mũi.
-                </p>
-              </div>
-              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                <h4>Virus lây lan như thế nào</h4>
-                <p>
-                  Các virus nói chung và virus SARS-CoV-2 nói riêng, trong quá trình lưu hành, sau nhiều lần sao chép và nhân bản có thể xuất hiện những biến đổi trong cấu trúc của gen, nghĩa là có sự thay đổi ở một hoặc một số vị trí trên bộ gen di truyền so với bộ gen ban đầu của virus, điều này được gọi là đột biến gen.
-                </p>
-                <p>
-                  Khi quá trình lây nhiễm tăng nhanh, quá trình virus sao chép và nhân bản cũng gia tăng, các đột biến gen của virus có cơ hội xuất hiện nhiều hơn, dẫn đến khả năng xuất hiện biến thể cao hơn. 
-                </p>
-              </div>
-              <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="four-tab">
-                <h4>Triệu chứng của bệnh COVID-19?</h4>
-                <p>
-                  Trong giai đoạn đầu của đại dịch, người ta cho rằng sổ mũi không phải là triệu chứng của COVID-19, nhiều khả năng là dấu hiệu của bệnh cúm thông thường. Tuy nhiên, từ dữ liệu của các cuộc nghiên cứu sau này cho thấy, sổ mũi, ngạt mũi, chảy nước mũi có thể xuất hiện ở bệnh nhân COVID-19, đặc biệt là những bệnh nhân nhiễm biến thể Delta.
-                </p>
-                <p>
-                  Sau thời gian ủ bệnh (trong khoảng từ 2 đến 14 ngày), các triệu chứng nhiễm COVID 19 bắt đầu xuất hiện như ho khan và sốt nhẹ. Sốt được xác định nghi ngờ COVID 19 là từ 38,1oC – 39oC hay 100,5oF – 102,1oF, thường kèm theo giảm chức năng vị giác và khứu giác.
-                </p>
-                <p>
-                  Bệnh nhân sẽ được điều trị và cách ly tại nhà nếu các triệu chứng ở mức độ nhẹ hoặc trung bình và tự khỏi trong 1 tuần. Khoảng 10% người bệnh vẫn còn những triệu chứng sốt, mệt mỏi, ho, tiêu chảy… vào tuần thứ hai. Nếu các triệu chứng càng kéo dài càng xuất hiện thêm nhiều triệu chứng tăng nặng, đòi hỏi người bệnh phải nhập viện, hồi sức tích cực và thở máy xâm lấn. COVID 19 có diễn tiến khó đoán, đặc biệt là ở bệnh nhân lớn tuổi có bệnh nền đi kèm. Biểu hiện lâm sàng thay đổi từ hoàn toàn không có triệu chứng đến triệu chứng nặng và tử vong.
-                </p>
-                <p>
-                  Đại dịch COVID-19 do virus SARS CoV 2 chủ yếu gây ra hội chứng hô hấp cấp tính nghiêm trọng. Mặc dù vậy, COVID-19 vẫn được ghi nhận với nhiều biến chứng của COVID-19 thường gặp như nhức đầu, chóng mặt, thay đổi ý thức, rối loạn khứu giác, rối loạn vị giác, co giật và đột quỵ.
-                </p>
-              </div>
-              <div class="tab-pane fade" id="home3" role="tabpanel" aria-labelledby="home3-tab">
-                <h4>ự khác nhau giữa mắc COVID-19, cảm lạnh, dị ứng và cảm cúm là gì?</h4>
-                <p>
-                  Cả COVID-19 và cảm lạnh thông thường đều do virus gây ra. COVID-19 do SARS-CoV-2 gây ra, trong khi cảm lạnh thông thường thường do rhinovirus gây ra. Những virus này lây lan theo những cách tương tự nhau và gây ra nhiều dấu hiệu và triệu chứng giống nhau. Tuy nhiên, có một vài điểm khác biệt.
-                </p>
-                <p>
-                 Trong khi các triệu chứng COVID-19 thường xuất hiện từ 2 đến 14 ngày sau khi tiếp xúc với SARS-CoV-2, các triệu chứng của cảm lạnh thông thường thường xuất hiện từ 1 đến 3 ngày sau khi tiếp xúc với virus gây cảm lạnh.Không có thuốc chữa cảm lạnh thông thường. Điều trị có thể bao gồm thuốc giảm đau và thuốc trị cảm lạnh không kê đơn, chẳng hạn như thuốc thông mũi. Không giống như COVID-19, cảm lạnh thường vô hại. Hầu hết mọi người đều hồi phục sau cảm lạnh thông thường trong vòng 3 đến 10 ngày.
-                </p>
-              </div>
-              <div class="tab-pane fade" id="profile3" role="tabpanel" aria-labelledby="profile3-tab">
-                <h4> Triệu chứng gây ra bởi virus SARS-CoV-2 qua từng ngày</h4>
-                <p>
-                  Tùy theo thể trạng và sức đề kháng, triệu chứng nhiễm corona qua từng ngày của mỗi cá thể là khác nhau, tuy nhiên những triệu chứng này đều biểu hiện rõ từ 2-14 ngày. Do đó, ngay khi có các dấu hiệu nghi ngờ, người bệnh cần đến ngay các cơ sở y tế gần nhất để được chẩn đoán kịp thời.Ngày 1 đến ngày 3:Dấu hiệu giống bệnh cảm thông thườngViêm họng nhẹ, không sốt, không mệt mỏi Ăn uống và hoạt động bình thường.Ngày 4:Cổ họng bắt đầu đau nhẹ, người lờ đờ.Bắt đầu khan tiếng.Nhiệt độ cơ thể tăng nhẹ.Đau đầu nhẹ, tiêu chảy nhẹ.Bắt đầu chán ăn.Ngày 5:Đau họng nhiều hơn, khan tiếng nhiều hơn.Nhiệt độ cơ thể tăng nhẹCơ thể mệt mỏi, đau nhức các khớp xương.Ngày 6:Triệu chứng gây ra bởi virus SARS-CoV-2 là bắt đầu sốt nhẹ.Ho có đàm hoặc ho khan không đàm.Đau họng nhiều hơn, đau khi nuốt nước bọt, khi ăn hoặc nói.Cơ thể mệt mỏi, buồn nôn.Tiêu chảy, có thể nôn ói.Lưng hoặc ngón tay đau nhức.Ngày 7:Sốt cao dưới 38o Ho nhiều hơn, đàm nhiều hơn.Toàn thân đau nhức.Khó thở.Tiêu chảy và nôn ói nhiều hơn.Ngày 8:Sốt khoảng trên dưới 38o.Khó thở, hơi thở khò khè, nặng lồng ngực.Ho liên tục, đàm nhiều, tắt tiếng.Đau khớp xương, đau đầu, đau lưng.Ngày 9:Các tình trạng như sốt, ho, khó thở, nặng lồng ngực… trở nên nặng nề hơn.
-                </p>
-              </div>
-              <div class="tab-pane fade" id="contact3" role="tabpanel" aria-labelledby="contact3-tab">
-                <h4>Biểu hiện của bệnh COVID-19 có sổ mũi không? </h4>
-                <p>
-                  Trong giai đoạn đầu của đại dịch, người ta cho rằng sổ mũi không phải là triệu chứng của COVID-19, nhiều khả năng là dấu hiệu của bệnh cúm thông thường. Tuy nhiên, từ dữ liệu của các cuộc nghiên cứu sau này cho thấy, sổ mũi, ngạt mũi, chảy nước mũi có thể xuất hiện ở bệnh nhân COVID-19, đặc biệt là những bệnh nhân nhiễm biến thể Delta.
-                </p>
-                <p>
-                  Theo báo cáo của Tổ chức Y tế Thế giới (WHO), khoảng 5% bệnh nhân mắc Corona virus có triệu chứng nghẹt mũi. Đây không phải là dấu hiệu phổ biến nhất của bệnh, nhưng đây là triệu chứng dễ gây nhầm lẫn với cảm lạnh và cúm. Trên thực tế, nhiều dấu hiệu COVID 19 giống với bệnh cúm như đau đầu, đau nhức cơ thể, mệt mỏi. Một số triệu chứng khác có thể giống như cảm lạnh hoặc dị ứng, như đau họng, ho, sốt và nghẹt mũi.
-                </p>
-                <p>
-                  Báo cáo đưa ra bởi Tổ chức Y tế Thế giới (WHO) cho thấy, trong số 55.924 người mắc COVID 19 được theo dõi, hơn 33% bệnh nhân có biểu hiện ho ra đờm, chất nhầy dày được tạo ra từ phổi. Triệu chứng ho của COVID 19 không phải là hiện tượng ngứa cổ họng khiến người bệnh hắng giọng, cũng không chỉ là do kích thích, mà cơn ho này xuất phát từ vùng ức và các ống phế quản bị viêm rất khó chịu.
-                </p>
-                <p>
-                  Đau họng, ho khan, thậm chí có đờm đặc và bọt, khả năng cao là một trong những triệu chứng điển hình, nghiêm trọng và phổ biến của COVID-19. Dấu hiệu COVID đau họng thường dễ bị nhầm lẫn với đau họng thông thường. Đau họng do bệnh COVID không có hiệu quả điều trị khi uống các thuốc đau họng thông thường. Do đó, nếu cảm thấy ho nhiều, kéo dài, uống thuốc hoặc điều trị tại nhà không đỡ, kết hợp với triệu chứng sốt, khó thở, người bệnh cần đi khám sức khỏe ngay tại các cơ sở khám, chữa bệnh được Nhà nước, Bộ Y tế chỉ định.
-                </p>
-              </div>
-              <div class="tab-pane fade" id="four3" role="tabpanel" aria-labelledby="four3-tab">
-                <h4>Biểu hiện sớm nhất của bệnh COVID-19 gây ra bởi virus SARS-CoV-2 là gì?</h4>
-                <p>
-                  Theo cảnh báo từ Trung tâm Kiểm soát và Phòng ngừa dịch bệnh Hoa Kỳ (CDC Hoa Kỳ), khi mắc COVID 19, một hoặc tất cả các triệu chứng đều có thể xuất hiện bất cứ lúc nào trong vòng 2-14 ngày sau khi tiếp xúc với virus SARS-CoV-2. Theo đó, các biểu hiện sớm nhất để phát hiện bệnh là:
-                </p>
-                <p>
-                <ul>
-                  <il> Sốt: Sốt là dấu hiệu nhận biết corona đầu tiên. Hầu hết trẻ em và người lớn sẽ được xác định là sốt khi nhiệt độ vượt mức 38oC. Các chuyên gia khuyến cáo, bệnh nhân không nên dựa vào nhiệt độ đo buổi sáng vì sốt do virus thường khiến thân nhiệt tăng vào cuối buổi chiều và đầu buổi tối.</il>
-                  <il>Ho khan: Ho là một triệu chứng COVID 19 sớm và phổ biến nhất. Ho do COVID 19 gây ra sẽ không thể điều trị dứt điểm khi uống thuốc ho thông thường. </il>
-                  <il>Mệt mỏi: Mệt mỏi, kiệt sức, đau nhức cơ thể là biểu hiện COVID 19 sớm. Nghiên cứu của WHO cho thấy, khoảng 40% trong số gần 6.000 người mắc bệnh trải qua giai đoạn mệt mỏi. Trạng thái này thậm chí còn kéo dài ngay sau khi COVID 19 kết thúc một vài tuần. </il>
-               </ul>
-             </p>
-              </div>
-              <div class="tab-pane fade" id="five3" role="tabpanel" aria-labelledby="five3-tab">
-                <h4>Triệu chứng của COVID-19 có nghẹt mũi không?</h4>
-                <p>
-                  Theo báo cáo của Tổ chức Y tế Thế giới (WHO), khoảng 5% bệnh nhân mắc Corona virus có triệu chứng nghẹt mũi. Đây không phải là dấu hiệu phổ biến nhất của bệnh, nhưng đây là triệu chứng dễ gây nhầm lẫn với cảm lạnh và cúm. Trên thực tế, nhiều dấu hiệu COVID 19 giống với bệnh cúm như đau đầu, đau nhức cơ thể, mệt mỏi. Một số triệu chứng khác có thể giống như cảm lạnh hoặc dị ứng, như đau họng, ho, sốt và nghẹt mũi.
-                </p>  
-              </div>
-              <div class="tab-pane fade" id="profile4" role="tabpanel" aria-labelledby="profile4-tab">
-                <h4>Hệ gen của virus Corona 2019 là gì?</h4>
-                <p>
-                  Bộ gen của virus Corona 2019 là bộ gen lớn nhất trong số các virus RNA, bao gồm các vùng: vùng 5’UTR, khung đọc mở, vùng 3’UTR và cuối cùng là đuôi-poly (A).
-                </p>
-                <p>
-                  Theo các nghiên cứu, bộ gen của virus Corona 2019 có các mặt tương đồng như sau:
-                </p>
-                <ul>
-                  <il>Tương đồng 50% mã gen so với chủng virus MERS-CoV;</il>
-                  <il>Tương đồng 79,5% mã gen so với chủng virus SARS-CoV;</il>
-                  <il>Tương đồng 96% mã gen so với chủng virus Corona được phát hiện trong dơi, đặc biệt là dơi móng ngựa;</il>
-                  <il>Tương đồng 99% mã gen so với chủng virus Corona có trong loài Tê tê.</il>
-                </ul>
-                <p>
-                  Khi phân tích vi rút Corona 2019, các nhà khoa học nhận thấy vi rút Corona cùng loài với virus gây bệnh SARS vào năm 2003 với độ tương đồng lên đến 94.6% các chuỗi axit amin.
-                </p>
-                <p>
-                  Trong bộ gen của vi rút Corona 2019 có một gen thiết yếu là RdRp (RNA phụ thuộc RNA polymerase), gen này có độ bảo tồn cao, được dùng để chẩn đoán phát hiện vi rút Corona.
-                </p>
-              </div>
-              <div class="tab-pane fade" id="contact4" role="tabpanel" aria-labelledby="contact4-tab">
-                <h4>
-                 Vi rút SARS-CoV-2 được phát hiện khi nào?
-                </h4>
-                <p>
-                  Bùng phát vào cuối tháng 12/2019, bắt nguồn từ một chợ hải sản ở Hồ Nam, Vũ Hán, miền Trung Trung Quốc, virus SARS-CoV-2 ban đầu được xác nhận là một loại bệnh “viêm phổi lạ” hoặc “viêm phổi không rõ nguyên nhân”. Chỉ sau 100 ngày xuất hiện, đại dịch viêm đường hô hấp cấp do virus SARS-CoV-2 đã nhanh chóng tác động tới các lĩnh vực kinh tế, xã hội, thị trường tài chính chao đảo, nền kinh tế toàn cầu rơi vào suy thoái với tỷ lệ thất nghiệp và nghèo đói chưa từng có trong lịch sử.
-                </p>
-                <p>
-                  Cho đến nay, đã có 215 quốc gia, vùng lãnh thổ (trong đó có 2 tàu du lịch) ghi nhận ca mắc COVID-19.
-                </p>
-                
-              </div>
-              <div class="tab-pane fade" id="four4" role="tabpanel" aria-labelledby="four4-tab">
-                <h4>Thời gian ủ bệnh virus SARS-CoV-2</h4>
-                <p>
-                  Theo CDC Mỹ, các triệu chứng COVID-19 thường xuất hiện từ ngày thứ 2 – 14 sau khi nhiễm virus tùy thuộc vào từng cá thể, trung bình là 5 ngày. Riêng với biến thể Delta, thời gian ủ bệnh ngắn, chỉ khoảng 2 – 4 ngày. Trong thời gian này, virus vẫn có thể truyền bệnh cho người khác
-                </p>
-                <p>
-                  1. Đối với Coronavirus :Các ước tính hiện tại cho thấy, các chủng virus Corona chẳng hạn như MERS và SARS có thời gian ủ bệnh khoảng 2-11 ngày. Giống như các bệnh về đường hô hấp khác, sau khi hết giai đoạn ủ bệnh, người nhiễm Coronavirus sẽ xuất hiện các triệu chứng gồm sổ mũi, đau họng, ho và sốt… Bệnh có thể diễn tiến nặng ở một số người khi gây ra viêm phổi cấp. Nguy hiểm hơn, Covid-19 có thể nhanh chóng gây tử vong cho đối tượng nguy cơ cao như người già, người mắc bệnh mạn tính (tiểu đường, tim mạch, ung thư, viêm phổi tắc nghẽn mãn tính COPD…).
-                </p>
-                <p>
-                  2. Đối với chủng mới: Viêm đường hô hấp cấp do virus Corona chủng mới có thể xuất hiện các triệu chứng sau thời gian ủ bệnh kéo dài từ 2 đến 14 ngày, trung bình là 5 ngày. Trong thời gian này, virus vẫn có thể truyền bệnh cho người khác. Mặc dù vậy, nhiều nghiên cứu cũng chỉ ra rằng, sẽ có một số ít trường hợp thời gian ủ bệnh Sars-Cov 2 có thể kéo dài hơn 14 ngày. Nghiên cứu  được thực hiện bởi Trường Y tế Cộng đồng Johns Hopkins Bloomberg (Mỹ) cho thấy, trong số 10.000 đối tượng bị nhiễm Covid-19 thì có khoảng 101 trường hợp xuất hiện các triệu chứng đầu tiên sau 14 ngày. Do đó, các chuyên gia cho rằng các việc tiếp xúc với người không có biểu hiện bệnh không có nghĩa là an toàn. Nói cách khác, Covid-19 có thể lây nhiễm ngay cả trước khi các triệu chứng đầu tiên xuất hiện.
-                </p>
-              </div>
-              <div class="tab-pane fade" id="five4" role="tabpanel" aria-labelledby="five4-tab">
-                <h4>Nguyên nhân nhiễm vi rút SARS-CoV-2</h4>
-                <p>
-                  Người bị nhiễm virus SARS-CoV-2 là từ người tiếp xúc với các giọt dịch hô hấp của cơ thể của người có mầm bệnh khi hắt hơi, ho hoặc thở ra. Các nhà khoa học và quan chức có trách nhiệm đã xác nhận ba cách lây truyền: truyền trực tiếp, truyền tiếp xúc và truyền khí dung.
-                <p>
-                  Trung tâm kiểm soát và phòng ngừa dịch bệnh Hoa Kỳ (CDC) đã đưa ra danh sách những người có nguy cơ cao nhất nhiễm vi rút Corona. Đây là nhóm đối tượng cực kỳ nhạy cảm và dễ tử vong do virus Corona gồm cả trẻ em, người lớn, người cao tuổi, phụ nữ có thai, người có tiền sử bệnh, người bị suy giảm miễn dịch hoặc có các bệnh lý nền (bệnh tim, bệnh phổi mạn tính, suy giảm miễn dịch, béo phì, đái tháo đường…).
-                </p>
-                <p>
-                  Người bệnh có thể lây truyền virus ngay cả khi họ không có triệu chứng điển hình. Cần xác định người bệnh bằng xét nghiệm, cách ly, và chăm sóc y tế, tùy thuộc vào mức độ nghiêm trọng. Thậm chí, người đã được xác định mắc COVID-19 nhưng không biểu hiện triệu chứng cũng cần được cách ly và thực hiện nghiêm túc các biện pháp giãn cách, kiểm soát để hạn chế tiếp xúc với người khác nhằm ngăn chặn sự lây lan của bệnh.  
-                </p>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================End Answers Area =================-->
-
-    <!--================Home Latest Blog Area =================-->
-    <section class="home_latest_blog_area">
-      <div class="container">
-        <div class="main_title text-center">
-          <h5>Các tin tức nổi bật</h5>
-          <h2>Tin tức nổi bật gần đây</h2>
-          <p>
-            Tìm hiểu tin tức hàng ngày về COVID-19.
-
-
-          </p>
-        </div>
-        <div class="row l_blog_inner">
-        <?php
-    //1.ket noi den MAY CHU DU LIEU & DEN CSDL
-        $ket_noi= mysqli_connect("localhost","root","","btl_db");
-
-    //2.Viet cau lenh truy van lay ra duoc DL mong muon(Tin tuc da luu trong csdl)
-        //truy vấn tin tức mới nhất
-        
-         $sql1=" SELECT * FROM tbl_tin_tuc JOIN tbl_tin_tuc_hashtag ON tbl_tin_tuc.hashtag_id=tbl_tin_tuc_hashtag.hashtag_id 
-              ORDER BY tin_tuc_id DESC ";
-
-         //truy vấn tin tức nhiều người xem nhất
-        $sql2=" SELECT *
-              FROM tbl_tin_tuc
-              WHERE so_lan_doc = (SELECT MAX(so_lan_doc) FROM tbl_tin_tuc ORDER BY tin_tuc_id DESC ) ";
-        //truy vấn thông tin quan trọng
-        $sql3=" SELECT *
-              FROM tbl_tin_tuc
-              WHERE ghi_chu = 'quan trọng' ORDER BY tin_tuc_id DESC  ";
-
-    //3.Thuc thi cau lenh truy van(muc dich tra ve du lieu cac ban can)
-        $noi_dung_tin_tuc1=mysqli_query($ket_noi, $sql1);
-
-        $noi_dung_tin_tuc2=mysqli_query($ket_noi, $sql2);
-
-        $noi_dung_tin_tuc3=mysqli_query($ket_noi, $sql3);
-
-
-    //4.Hien thi ra du lieu ma cac ban vua lay duoc
-        $row1=mysqli_fetch_array($noi_dung_tin_tuc1);
-        $row2=mysqli_fetch_array($noi_dung_tin_tuc2);
-        $row3=mysqli_fetch_array($noi_dung_tin_tuc3);
-
-
-        ?>
-          <div class="col-lg-8">
-            <div class="big_l_blog_item">
-              <div class="l_blog_img">
-                <img class="img-fluid" src="assets/images/blog/latest-blog/l-blog.jpg" alt="" />
-              </div>
-              <div class="l_blog_text">
-                <div class="date">
-                  <a href="#"><i class="far fa-calendar-alt"></i> <?php echo date("d/m/Y ",strtotime($row1["ngay_dang_tin"]));?> </a>
-                  <a href="#"><i class="far fa-eye"></i>  <?php echo $row1["so_lan_doc"];?> lượt đọc</a>
-                </div>
-                <div class="blog_btm_text">
-                  <div class="tag"><?php echo $row1["ten_hashtag"];?></div>
-                  <div class="author">
-                    <a href="#">by <?php echo $row1["tac_gia"];?></a>
-                  </div>
-                  <a href="#">
-                    <h3><?php echo $row1["tieu_de"];?></h3>
-                  </a>
-                  <a class="text_btn" href="#">Đọc thêm <i class="fas fa-arrow-right"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="small_l_blog_item">
-              <div class="l_blog_img">
-                <img class="img-fluid" src="assets/images/blog/latest-blog/l-blog-2.jpg" alt="" />
-              </div>
-              <div class="l_blog_text">
-                <div class="date">
-                  <a href="#"><i class="far fa-calendar-alt"></i> <?php echo date("d/m/Y ",strtotime($row2["ngay_dang_tin"]));?></a>
-                  <a href="#"><i class="far fa-eye"></i> <?php echo $row2["so_lan_doc"];?> lượt đọc</a>
-                </div>
-                <a href="#">
-                  <h3><?php echo $row2["tieu_de"];?></h3>
-                </a>
-                <a class="text_btn" href="#">Đọc thêm <i class="linearicons-arrow-right"></i></a>
-              </div>
-            </div>
-            <div class="small_l_blog_item">
-              <div class="l_blog_img">
-                <img class="img-fluid" src="assets/images/blog/latest-blog/l-blog-3.jpg" alt="" />
-              </div>
-              <div class="l_blog_text">
-                <div class="date">
-                  <a href="#"><i class="far fa-calendar-alt"></i> <?php echo date("d/m/Y ",strtotime($row3["ngay_dang_tin"]));?></a>
-                  <a href="#"><i class="far fa-eye"></i> <?php echo $row3["so_lan_doc"];?> lượt đọc</a>
-                </div>
-                <a href="#">
-                  <h3><?php echo $row3["tieu_de"];?></h3>
-                </a>
-                <a class="text_btn" href="#">Đọc thêm <i class="linearicons-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <?php 
-      //5.Dong ket noi sau khi su dung
-        mysqli_close($ket_noi);
-       ;?>
-    </section>
-    <!--================End Home Latest Blog Area =================-->
-
-    <!--================Client Logo Area =================-->
-    <section class="client_logo_area">
-      <div class="container">
-        <div class="client_slider">
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-1.png" alt="" />
-          </div>
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-2.png" alt="" />
-          </div>
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-3.png" alt="" />
-          </div>
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-4.png" alt="" />
-          </div>
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-5.png" alt="" />
-          </div>
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-6.png" alt="" />
-          </div>
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-1.png" alt="" />
-          </div>
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-2.png" alt="" />
-          </div>
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-3.png" alt="" />
-          </div>
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-4.png" alt="" />
-          </div>
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-5.png" alt="" />
-          </div>
-          <div class="item">
-            <img src="assets/images/client-logo/client-logo-6.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================End Client Logo Area =================-->
-
-    <!--================App Area =================-->
+ <!--================App Area =================-->
     <section class="app_area">
       <div class="container">
         <div class="row">
@@ -1291,7 +919,7 @@
     </section>
     <!--================End App Area =================-->
 
-    <!--================Subscribe Area =================-->
+  <!--================Subscribe Area =================-->
     <section class="subscribe_area apps_craft_animation">
       <ul class="nav">
         <li><img class="layer layer2" data-depth="0.5" src="assets/images/icon/subs-1.png" alt=""></li>
@@ -1333,7 +961,6 @@
       </div>
     </section>
     <!--================End Subscribe Area =================-->
-
     <!--================Footer Area =================-->
     <footer class="footer_area">
       <div class="footer_widgets_area pad_top">
