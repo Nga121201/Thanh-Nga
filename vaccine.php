@@ -325,7 +325,6 @@
 
                             {
                              ;?>
-                            
                             <?php 
                              }
 
@@ -354,8 +353,7 @@
                             <div class="col-lg-6 comm travel edu quarantine">
                         <div class="big_l_blog_item"> 
                             <div class="l_blog_img">
-                                <img style="width: 570px; height: 430px;" 
-                                class="img-fluid" src="<?php echo $row['anh_minh_hoa'] ? 'assets/images/about/'.$row['anh_minh_hoa'] :'assets/images/about/astrazeneca.jpeg';?>" alt="" />
+                                <img  class="img-fluid" src="<?php echo $row['anh_minh_hoa'] ? 'assets/images/about/'.$row['anh_minh_hoa'] :'assets/images/about/astrazeneca.jpeg';?>" alt="" />
                             </div>
                             <div class="l_blog_text">
                                 <div class="blog_btm_text">

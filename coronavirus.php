@@ -288,9 +288,7 @@
                   <h4 class="wow fadeInUp">Đại dịch Coronavirus 2019-2021</h4>
                   <p class="wow fadeInUp" data-wow-delay="0.2s">
                     là một đại dịch đang diễn ra của bệnh coronavirus 2019 (COVID-19), do coronavirus 2 (SARS-CoV-2) gây ra hội chứng hô hấp cấp tính nghiêm trọng. Đợt bùng phát lần đầu tiên được xác định tại Vũ Hán, Hồ Bắc, Trung Quốc, vào tháng 12 năm 2019. Tổ chức Y tế Thế giới (WHO) tuyên bố đợt bùng phát là tình trạng khẩn cấp về sức khỏe cộng đồng cần quan tâm của quốc tế vào ngày 30 tháng 1 năm 2020 và công nhận là đại dịch vào ngày 11 tháng 3 năm 2020
-                  </p>
-                  <a class="text_btn wow fadeInUp" data-wow-delay="0.3s" href="#">Đọc thêm <i
-                      class="linearicons-arrow-right"></i></a>
+                  </p>  
                 </div>
               </div>
             </div>

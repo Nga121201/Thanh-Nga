@@ -59,7 +59,7 @@
                                             <td style="text-align: center; width: 30px"><?php echo $i;?></td>
                                             <td style="text-align: center; "><?php echo $row["ten_vaccine"];?></td>
                                             <td style="text-align: center; "><?php echo $row["mo_ta"];?></td>
-                                            <td style="text-align: center; "><img src="assets/images/about<?php echo $row["anh_minh_hoa"];?>" style="width: 50px; height: auto;"></td>
+                                            <td style="text-align: center; "><img src="../images/about/<?php echo $row["anh_minh_hoa"];?>" style="width: 50px; height: auto;"></td>
                                             <td style="text-align: center; "><a href="vaccine_sua.php?id=<?php echo $row['vaccine_id'];?>">Sửa</a></td>
                                             <td style="text-align: center; "><a href="vaccine_xoa.php?id=<?php echo $row['vaccine_id'];?>">Xóa</a></td>
                                         </tr>
